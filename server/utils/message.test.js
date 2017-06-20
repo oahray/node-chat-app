@@ -15,7 +15,7 @@ describe('generateMessage', () => {
 });
 
 describe('generateLocationMessage', () => {
-  it('should return correct message with co-ordinates', () => {
+  it('should return correct location object', () => {
     var from = "Admin1";
     var latitude = 15;
     var longitude = 16;
